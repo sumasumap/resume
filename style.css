@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Hind Siliguri', sans-serif !important;
+    font-size: 15px;
+    line-height: 2em;
+    color: #333;
+    font-weight: 400;
+    background: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0 0 15px;
+}
+h2{
+    line-height: 1.5em !important;
+    font-weight: 700 !important;
+}
+h3{
+    font-size: 25px !important;
+    line-height: 1.5em !important;
+    font-weight: 700 !important;
+}
+a{
+    color: #2325ad !important;
+    text-decoration: none !important;
+}
+a:hover{
+    color: black !important;
+    text-decoration: none !important;
+}
+p{
+    margin-bottom:20px !important;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.btn{
+    padding: 15px !important; 
+    font-size: 15px !important;
+    font-weight: bold !important; 
+    border-radius: 0 !important;
+    border: 0 !important;
+    text-transform: uppercase !important;
+}
+.btn-primary{
+    background: transparent !important;
+    border: 3px solid black !important;
+    padding: 2px !important;
+}
+.btn:hover{
+    color: white !important;
+}
+.columns-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.left-col-block{
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+}
+
+.right-col-block{
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+@media (max-width: 600px){
+    .left-col-block{
+        width: 100%;
+        position: relative;
+    }
+    .right-col-block{
+        width: 100%;
+        position: relative;
+    }
+    
+} 
+
+.header{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    vertical-align: middle;
+    position: relative;
+}
+.header .profile-image{
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: -1;
+    width:100%;
+    height:100%;
+    background-image: url("https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/08/17/3612713566.jpeg");
+    background-size: cover;
+    background-position: top center;
+}
+
+.header .profile-image:before{
+    content: "";
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background: linear-gradient(-30deg , rgba(42,84, 250, 0.5) 0%,  rgba(42,84, 250, 0.5) 25% , transparent 50% , transparent 100%);
+}
+
+.header .content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10%;
+}
+
+.header .content h1{
+    font-size: 36px;
+    color: rgb(2, 2, 2);
+    line-height: 1;
+    margin: 0;
+}
+.header .content p{
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+}
+
+.header .content .social-icon{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.header .content .social-icon li{
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.header .content .social-icon li a{
+    display: block;
+    font-size: 15px;
+    color: red;
+    height: 37px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 100px;
+    border:2px solid black;
+}
+
+.header .content .social-icon li a:hover{
+    border-color: #fff;
+}
+
+.section-wrapper{
+    padding: 50px;
+}
+.section-title{
+    margin-bottom: 15px;    
+}
+.section-title h2{
+    color: #444;
+}
+
+.grey-bg{
+    background-color: #e6dede;
+}
+
+.expertise-item{
+    margin-bottom: 20px;
+}
+
+.expertise-item h3{
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
